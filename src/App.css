@@ -1,38 +1,41 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+.main {
+  font-family: "Roboto Flex", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  font-family: "Roboto Flex", sans-serif;
+  margin: 10px;
+  width: 200px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sibling-content {
+  background: rgb(102, 163, 233);
+  border-radius: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.counter {
+  font-size: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.changer {
+  padding: 10px 0 0 0;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 20px;
+}
+.crossing {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+.crossing-2 {
+  cursor: pointer;
 }
